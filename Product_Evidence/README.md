@@ -25,8 +25,8 @@ The production health check also reports:
 
 ## Included Evidence Files
 
-- `vidsloom-production-home.png`: production customer-facing homepage screenshot
-- `vidsloom-workspace.png`: production workspace/workflow screenshot
+- `vidsloom-production-home.jpg`: production customer-facing homepage screenshot
+- `vidsloom-workspace.jpg`: production workspace/workflow screenshot
 - `vidsloom-youtube-upload-proof.png`: YouTube upload/OAuth proof screenshot
 - `vidsloom-evidence-metrics.png`: evidence/metrics proof screenshot
 - `vidsloom_profit_and_loss_2026-08-01.csv`: interim P&L evidence for the Devpost draft
@@ -34,4 +34,3 @@ The production health check also reports:
 ## Judge Notes
 
 This package is an interim evidence package prepared on 2026-08-01 so the Devpost submission can be completed before the final hackathon deadline. Before the final lock on 2026-08-17, replace or supplement this folder with exported Google Cloud billing invoices/cost tables, Gemini/Vertex usage dashboards, Stripe revenue exports, SendGrid usage evidence, and customer evidence if new verified activity is recorded.
-
