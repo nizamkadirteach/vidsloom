@@ -1,0 +1,17 @@
+file '/Volumes/T7Shield/vidsloom/assets/google-verification/00-title.png'
+duration 8
+file '/Volumes/T7Shield/vidsloom/assets/google-verification/01-home-slide.png'
+duration 8
+file '/Volumes/T7Shield/vidsloom/assets/google-verification/02-workflow-slide.png'
+duration 8
+file '/Volumes/T7Shield/vidsloom/assets/google-verification/03-oauth-slide.png'
+duration 8
+file '/Volumes/T7Shield/vidsloom/assets/google-verification/04-scopes.png'
+duration 8
+file '/Volumes/T7Shield/vidsloom/assets/google-verification/05-upload.png'
+duration 8
+file '/Volumes/T7Shield/vidsloom/assets/google-verification/06-metrics.png'
+duration 8
+file '/Volumes/T7Shield/vidsloom/assets/google-verification/07-policy.png'
+duration 8
+file '/Volumes/T7Shield/vidsloom/assets/google-verification/07-policy.png'

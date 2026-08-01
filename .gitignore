@@ -1,0 +1,29 @@
+._*
+.DS_Store
+Thumbs.db
+
+# JavaScript / Next.js
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.vercel/
+
+# Local render/QA artifacts
+docs/implementation/rendered/
+.vidsloom-qa/
+*.tmp
+
+# Local app data
+.vidloom-data/
+.vidsloom-data/
+
+# Secrets and private exports
+.env
+.env.*
+!.env.example
+credentials/
+secrets/

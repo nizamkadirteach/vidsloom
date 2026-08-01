@@ -1,0 +1,51 @@
+{
+  "name": "vidsloom",
+  "version": "0.1.0",
+  "private": true,
+  "description": "VIDSLOOM AI-operated short-form video marketing engine for small businesses.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start --port ${PORT:-3000}",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "samples:promote-restaurant": "node scripts/promote-staging-restaurant-sample.mjs",
+    "samples:refresh-staging": "node scripts/refresh-staging-public-samples.mjs",
+    "samples:self-promo": "node scripts/generate-vidsloom-self-promo-samples.mjs",
+    "e2e:production-pilot": "node scripts/run-production-e2e-pilot.mjs",
+    "visual:videos": "node scripts/visual-qa-videos.mjs",
+    "visual:videos:ai": "node scripts/ai-visual-qa-videos.mjs",
+    "visual:pages": "node scripts/visual-qa-pages.mjs",
+    "visual:pages:ai": "node scripts/ai-visual-qa-pages.mjs",
+    "visual:video-file": "node scripts/visual-qa-video-file.mjs",
+    "visual:video-file:ai": "node scripts/ai-visual-qa-video-file.mjs",
+    "check": "npm run typecheck && npm run build && npm run visual:videos && npm run visual:pages"
+  },
+  "dependencies": {
+    "@google-cloud/firestore": "^8.6.0",
+    "@google-cloud/storage": "^7.21.0",
+    "@google/genai": "latest",
+    "clsx": "latest",
+    "dejavu-fonts-ttf": "^2.37.3",
+    "ffmpeg-static": "^5.3.0",
+    "lucide-react": "latest",
+    "next": "latest",
+    "pureimage": "^0.4.18",
+    "react": "latest",
+    "react-dom": "latest",
+    "sharp": "^0.35.1",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "latest",
+    "puppeteer-core": "^25.1.0",
+    "typescript": "latest"
+  },
+  "engines": {
+    "node": ">=20.11"
+  }
+}
