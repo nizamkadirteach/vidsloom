@@ -2,14 +2,17 @@
 
 ## Devpost Status
 
-- Devpost draft URL: `https://devpost.com/submit-to/29541-build-with-gemini-xprize/manage/submissions/1049517-vidsloom/edit`
+- Devpost status: submitted on 2026-08-01.
+- Devpost manage URL: `https://devpost.com/submit-to/29541-build-with-gemini-xprize/manage/submissions/1049517-vidsloom/finalization`
 - Current public project slug shown by Devpost preview: `https://devpost.com/software/vidloom`
 - Category: Small Business Services
 - Production site: `https://vidsloom.com`
 - Production app/workspace: `https://vidsloom.com/app`
 - Production health: `https://vidsloom.com/api/health`
 - Demo video URL currently available: `https://youtu.be/lzBbxcgUmSo`
-- GitHub repo target: `https://github.com/nizamkadirteach/vidsloom`
+- GitHub repo: `https://github.com/nizamkadirteach/vidsloom`
+- Product evidence folder: `Product_Evidence/`
+- Interim P&L uploaded: `Product_Evidence/vidsloom_profit_and_loss_2026-08-01.xlsx`
 
 ## Current Submission Position
 
@@ -152,11 +155,11 @@ upload support is implemented, while other direct posting paths remain permissio
 
 ## Current Evidence Status
 
-- Demo video: available but OAuth-focused; should be replaced with a stronger end-to-end XPRIZE video before final lock.
-- Revenue: verified arms-length revenue should be updated before final submission. If none is verified yet, report USD 0
-  rather than projections.
-- Expenses: final P&L should include Google Cloud, AI/API usage, SendGrid, Stripe fees, domain/hosting, contractor or
-  labour expenses, and marketing/customer-acquisition spend, even if zero.
+- Demo video: submitted but OAuth-focused; should be replaced with a stronger end-to-end XPRIZE video before final lock.
+- Revenue: USD 0 verified arms-length revenue was submitted as of 2026-08-01. Update only if real revenue is booked.
+- Expenses: an interim USD 0 P&L was submitted because final invoice exports were not verified during this submission pass.
+  Replace it with Google Cloud, AI/API, SendGrid, Stripe, domain/hosting, contractor or labour, and marketing/CAC evidence
+  if verified before final lock.
 - Customer evidence: add consented customer names/contact info/testimonials in Devpost private fields or a redacted
   evidence package.
 - Product evidence: production health, Cloud Run revision, visual QA reports, AI visual QA reports, campaign IDs, agent
